@@ -1,0 +1,85 @@
+.Header .container {
+
+    min-width: 100% !important;
+}
+
+.MobileMenuRight {
+    display: none;
+}
+
+.Menu {
+    display: none;
+}
+
+.Menu .toggleMenu {
+    position: absolute;
+    top: 100%;
+}
+
+/* .ProfileImage .uploadImage {
+
+
+
+}
+
+*/
+.uploadImage .uploadImageInput {
+    font-size: x-small;
+   /* height: 4 0px ; */
+   /* position: absolute;
+   top: 10%; */
+
+}
+@media (max-width: 768px) {
+    .HomePage {
+        flex-direction: column;
+    }
+
+    .MobileMenuRight {
+        display: block;
+    }
+
+    .middleConatiner {
+        width: 100% !important;
+    }
+
+    .rightConatiner {
+
+        width: 100% !important;
+    }
+
+    .Header .container .Login {
+        display: none;
+    }
+
+    .Header {
+        justify-content: space-between !important;
+    }
+
+    .Header .container .Menu {
+        display: block;
+    }
+
+    .SideBar {
+        display: none !important;
+    }
+
+    .MobileMenuLog {
+        justify-content: center !important;
+
+    }
+
+    .Search {
+        display: none;
+    }
+
+    .Logo {
+        width: 120px !important;
+
+    }
+
+    .TopButton {
+        display: none;
+    }
+
+}
